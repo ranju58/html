@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header-right {
+    float: right;
+  }
+body{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #e0b9b9;
+    border-radius: 5px;
+    background: #ffefef
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+#footer{
+    position:relative ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+   
+}
